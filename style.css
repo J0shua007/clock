@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(106, 106, 204);
+}
+
+#h1,
+#m2,
+#s3,
+#s4{
+    height: 120px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;   
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#date{
+    display: flex;
+    justify-content: center;
+}
+#calender1,
+#calender2,
+#calender3{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    text-shadow: 2px 2px 10px black;
+}
+#calender2{
+    color: rgb(230, 15, 15);
+}
+#calender1{
+    color:white;
+}
+#calender3{
+    color: rgb(255, 255, 255);
+}
